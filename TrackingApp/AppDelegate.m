@@ -27,64 +27,43 @@
     //Add this code for Facebook launching purpose.
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
+   
     
     [FIRApp configure];
     
     [GIDSignIn sharedInstance].clientID = [FIRApp defaultApp].options.clientID;
     [GIDSignIn sharedInstance].delegate = self;    [GIDSignIn sharedInstance].delegate = self;
     // Override point for customization after application launch.
+    
+    
     return YES;
 }
 
-- (BOOL)application:(nonnull UIApplication *)application
-            openURL:(nonnull NSURL *)url
-            options:(nonnull NSDictionary<NSString *, id> *)options {
-    return [[GIDSignIn sharedInstance] handleURL:url
-                               sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                                      annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
-}
-
-//- (void)signIn:(GIDSignIn *)signIn
-//didSignInForUser:(GIDGoogleUser *)user
-//     withError:(NSError *)error {
-//    // ...
-//    if (error == nil) {
-//        GIDAuthentication *authentication = user.authentication;
-//        FIRAuthCredential *credential =
-//        [FIRGoogleAuthProvider credentialWithIDToken:authentication.idToken
-//                                         accessToken:authentication.accessToken];
-//        // ...
-//    } else {
-//        // ...
-//    }
-//}
-
-//- (void)signIn:(GIDSignIn *)signIn
-//didDisconnectWithUser:(GIDGoogleUser *)user
-//     withError:(NSError *)error {
-//    // Perform any operations when the user disconnects from app here.
-//    // ...
-//}
-
-
-
-
-
-// fb method
-
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
-  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     
     BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
                                                                   openURL:url
-                                                        sourceApplication:sourceApplication
-                                                               annotation:annotation
+                                                        sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+                                                               annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
                     ];
+     return handled;
     // Add any custom logic here.
-    return handled;
+    return [[GIDSignIn sharedInstance] handleURL:url
+                               sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+                                      annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
+   
 }
 
+
+
+
+
+
+
+
+//Add also this code
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

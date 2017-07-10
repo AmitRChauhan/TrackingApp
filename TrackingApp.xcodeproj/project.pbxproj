@@ -32,15 +32,24 @@
 		00E9D8FE1E55CEA8007840D2 /* DateTImeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9D8FD1E55CEA8007840D2 /* DateTImeViewController.m */; };
 		00F81C291E406EEB009460F2 /* MapScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F81C281E406EEB009460F2 /* MapScreenViewController.m */; };
 		07B4A616699DDD558C11C58B /* libPods-TrackingAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A767518FDFEA0999756138 /* libPods-TrackingAppUITests.a */; };
-		2840A72B1F126844006E50F5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A7271F126844006E50F5 /* Bolts.framework */; };
-		2840A72C1F126844006E50F5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A7281F126844006E50F5 /* FBSDKCoreKit.framework */; };
-		2840A72D1F126844006E50F5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A7291F126844006E50F5 /* FBSDKLoginKit.framework */; };
-		2840A72E1F126844006E50F5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A72A1F126844006E50F5 /* FBSDKShareKit.framework */; };
 		2840A7311F126B45006E50F5 /* FaceBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840A7301F126B45006E50F5 /* FaceBookModel.m */; };
 		2840A7331F128130006E50F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840A7321F128130006E50F5 /* GoogleService-Info.plist */; };
 		2840A7341F128130006E50F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840A7321F128130006E50F5 /* GoogleService-Info.plist */; };
 		2840A7351F128130006E50F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840A7321F128130006E50F5 /* GoogleService-Info.plist */; };
 		68D102AFD9B5ED41B85C13F6 /* libPods-TrackingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305ABF0C1AEE27E8845F977A /* libPods-TrackingApp.a */; };
+		A75F32C71F1386E500582EF4 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32C61F1386E500582EF4 /* iAd.framework */; };
+		A75F32DC1F13B6F400582EF4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32D81F13B6F400582EF4 /* Bolts.framework */; };
+		A75F32DD1F13B6F400582EF4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32D81F13B6F400582EF4 /* Bolts.framework */; };
+		A75F32DE1F13B6F400582EF4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32D81F13B6F400582EF4 /* Bolts.framework */; };
+		A75F32DF1F13B6F400582EF4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32D91F13B6F400582EF4 /* FBSDKCoreKit.framework */; };
+		A75F32E01F13B6F400582EF4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32D91F13B6F400582EF4 /* FBSDKCoreKit.framework */; };
+		A75F32E11F13B6F400582EF4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32D91F13B6F400582EF4 /* FBSDKCoreKit.framework */; };
+		A75F32E21F13B6F400582EF4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32DA1F13B6F400582EF4 /* FBSDKLoginKit.framework */; };
+		A75F32E31F13B6F400582EF4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32DA1F13B6F400582EF4 /* FBSDKLoginKit.framework */; };
+		A75F32E41F13B6F400582EF4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32DA1F13B6F400582EF4 /* FBSDKLoginKit.framework */; };
+		A75F32E51F13B6F400582EF4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32DB1F13B6F400582EF4 /* FBSDKShareKit.framework */; };
+		A75F32E61F13B6F400582EF4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32DB1F13B6F400582EF4 /* FBSDKShareKit.framework */; };
+		A75F32E71F13B6F400582EF4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F32DB1F13B6F400582EF4 /* FBSDKShareKit.framework */; };
 		A76381911F13722D0056D894 /* PCWebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76381901F13722D0056D894 /* PCWebServiceManager.m */; };
 		A76381A01F1373050056D894 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A76381951F1373050056D894 /* NSObject+SBJSON.m */; };
 		A76381A11F1373050056D894 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A76381971F1373050056D894 /* NSString+SBJSON.m */; };
@@ -145,10 +154,6 @@
 		00F81C281E406EEB009460F2 /* MapScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScreenViewController.m; sourceTree = SOURCE_ROOT; };
 		03A767518FDFEA0999756138 /* libPods-TrackingAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123EDFBE85B1F2E0971904AA /* libPods-TrackingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2840A7271F126844006E50F5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		2840A7281F126844006E50F5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		2840A7291F126844006E50F5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		2840A72A1F126844006E50F5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		2840A72F1F126B3E006E50F5 /* FaceBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBookModel.h; sourceTree = "<group>"; };
 		2840A7301F126B45006E50F5 /* FaceBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBookModel.m; sourceTree = "<group>"; };
 		2840A7321F128130006E50F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -157,6 +162,12 @@
 		5089CE5BCE7E14B5186142B2 /* Pods-TrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingApp/Pods-TrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		55BEE23BA4FBEF3856E373EF /* Pods-TrackingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingAppTests/Pods-TrackingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E15B2F7A6D79784636A0E13 /* Pods-TrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingApp/Pods-TrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		A75F32C51F1382F400582EF4 /* TrackingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackingApp.entitlements; sourceTree = "<group>"; };
+		A75F32C61F1386E500582EF4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A75F32D81F13B6F400582EF4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A75F32D91F13B6F400582EF4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A75F32DA1F13B6F400582EF4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A75F32DB1F13B6F400582EF4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		A763818F1F13721D0056D894 /* PCWebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCWebServiceManager.h; sourceTree = "<group>"; };
 		A76381901F13722D0056D894 /* PCWebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCWebServiceManager.m; sourceTree = "<group>"; };
 		A76381931F1373050056D894 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -238,13 +249,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2840A72E1F126844006E50F5 /* FBSDKShareKit.framework in Frameworks */,
-				2840A72B1F126844006E50F5 /* Bolts.framework in Frameworks */,
-				2840A72C1F126844006E50F5 /* FBSDKCoreKit.framework in Frameworks */,
+				A75F32C71F1386E500582EF4 /* iAd.framework in Frameworks */,
 				00E3A8721E4B14F700D5F12B /* MapKit.framework in Frameworks */,
 				00E3A8701E4B14EF00D5F12B /* Foundation.framework in Frameworks */,
-				2840A72D1F126844006E50F5 /* FBSDKLoginKit.framework in Frameworks */,
+				A75F32DC1F13B6F400582EF4 /* Bolts.framework in Frameworks */,
+				A75F32DF1F13B6F400582EF4 /* FBSDKCoreKit.framework in Frameworks */,
+				A75F32E51F13B6F400582EF4 /* FBSDKShareKit.framework in Frameworks */,
 				00E3A86E1E4B14E800D5F12B /* UIKit.framework in Frameworks */,
+				A75F32E21F13B6F400582EF4 /* FBSDKLoginKit.framework in Frameworks */,
 				68D102AFD9B5ED41B85C13F6 /* libPods-TrackingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBAB6A44BD6C7EB1AA43DB5C /* libPods-TrackingAppTests.a in Frameworks */,
+				A75F32E01F13B6F400582EF4 /* FBSDKCoreKit.framework in Frameworks */,
+				A75F32E61F13B6F400582EF4 /* FBSDKShareKit.framework in Frameworks */,
+				A75F32E31F13B6F400582EF4 /* FBSDKLoginKit.framework in Frameworks */,
+				A75F32DD1F13B6F400582EF4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B4A616699DDD558C11C58B /* libPods-TrackingAppUITests.a in Frameworks */,
+				A75F32E11F13B6F400582EF4 /* FBSDKCoreKit.framework in Frameworks */,
+				A75F32E71F13B6F400582EF4 /* FBSDKShareKit.framework in Frameworks */,
+				A75F32E41F13B6F400582EF4 /* FBSDKLoginKit.framework in Frameworks */,
+				A75F32DE1F13B6F400582EF4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,16 +313,17 @@
 		00DED6481E3F498D00418F87 /* TrackingApp */ = {
 			isa = PBXGroup;
 			children = (
+				A75F32C51F1382F400582EF4 /* TrackingApp.entitlements */,
+				A75F32D81F13B6F400582EF4 /* Bolts.framework */,
+				A75F32D91F13B6F400582EF4 /* FBSDKCoreKit.framework */,
+				A75F32DA1F13B6F400582EF4 /* FBSDKLoginKit.framework */,
+				A75F32DB1F13B6F400582EF4 /* FBSDKShareKit.framework */,
 				A76381B51F13745A0056D894 /* PCConstant.h */,
 				A76381B61F13745A0056D894 /* PCConstant.m */,
 				A76381A61F1373B70056D894 /* External */,
 				2840A7321F128130006E50F5 /* GoogleService-Info.plist */,
 				2840A72F1F126B3E006E50F5 /* FaceBookModel.h */,
 				2840A7301F126B45006E50F5 /* FaceBookModel.m */,
-				2840A7271F126844006E50F5 /* Bolts.framework */,
-				2840A7281F126844006E50F5 /* FBSDKCoreKit.framework */,
-				2840A7291F126844006E50F5 /* FBSDKLoginKit.framework */,
-				2840A72A1F126844006E50F5 /* FBSDKShareKit.framework */,
 				A7935DB31F0E1B1F002F86BD /* NetworkStuff */,
 				A7935D991F0E0268002F86BD /* PCH file */,
 				A7935D7B1F0CCE99002F86BD /* ThirdPartyFrameWork */,
@@ -392,6 +413,7 @@
 		00E3A86C1E4B14E800D5F12B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A75F32C61F1386E500582EF4 /* iAd.framework */,
 				00E3A8711E4B14F700D5F12B /* MapKit.framework */,
 				00E3A86F1E4B14EF00D5F12B /* Foundation.framework */,
 				00E3A86D1E4B14E800D5F12B /* UIKit.framework */,
@@ -734,7 +756,13 @@
 				TargetAttributes = {
 					00DED6451E3F498D00418F87 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7689RKX2G9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					00DED6611E3F498D00418F87 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1144,7 +1172,8 @@
 			baseConfigurationReference = 5089CE5BCE7E14B5186142B2 /* Pods-TrackingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_ENTITLEMENTS = TrackingApp/TrackingApp.entitlements;
+				DEVELOPMENT_TEAM = 7689RKX2G9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TrackingApp",
@@ -1163,7 +1192,8 @@
 			baseConfigurationReference = 6E15B2F7A6D79784636A0E13 /* Pods-TrackingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_ENTITLEMENTS = TrackingApp/TrackingApp.entitlements;
+				DEVELOPMENT_TEAM = 7689RKX2G9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TrackingApp",
@@ -1182,6 +1212,11 @@
 			baseConfigurationReference = 0047CA8D13493956763193B7 /* Pods-TrackingAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TrackingApp",
+				);
 				INFOPLIST_FILE = TrackingAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.TrackingAppTests;
@@ -1195,6 +1230,11 @@
 			baseConfigurationReference = 55BEE23BA4FBEF3856E373EF /* Pods-TrackingAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TrackingApp",
+				);
 				INFOPLIST_FILE = TrackingAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.TrackingAppTests;
@@ -1207,6 +1247,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45217C2651FDF6EEA658B54F /* Pods-TrackingAppUITests.debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TrackingApp",
+				);
 				INFOPLIST_FILE = TrackingAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.TrackingAppUITests;
@@ -1219,6 +1264,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B49E6F671755150D9DD50584 /* Pods-TrackingAppUITests.release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TrackingApp",
+				);
 				INFOPLIST_FILE = TrackingAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.TrackingAppUITests;

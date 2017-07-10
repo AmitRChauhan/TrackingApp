@@ -1,17 +1,12 @@
-//
-//  SocialIntegrationVC.m
-//  TrackingApp
-//
-//  Created by sumo on 05/07/17.
-//  Copyright © 2017 Snowtint Snowtint. All rights reserved.
-//
+
+
 
 #import "SocialIntegrationVC.h"
+#import "FaceBookModel.h"
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKShareKit/FBSDKShareKit.h>
-#import "FaceBookModel.h"
 @import Firebase;
 @import GoogleSignIn;
 #define  NULL_CHECKER(X) [X isKindOfClass:[NSNull class]]?nil:X
@@ -20,11 +15,11 @@
 {
     NSMutableArray *faceBookData;
     NSString *gmailName;
-     NSString *gmailEmailId;
-     NSString *gmailID;
+    NSString *gmailEmailId;
+    NSString *gmailID;
     NSString *userIDStr;
-     NSString *givenName;
-     NSString *familyName;
+    NSString *givenName;
+    NSString *familyName;
 }
 
 @end
@@ -41,11 +36,11 @@
     userIDStr = [NSString new];
     givenName = [NSString new];
     familyName = [NSString new];
-
+    
 }
 - (IBAction)backButtonAction:(id)sender {
     
-  [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
     
 }
 - (IBAction)loginThroughFaceBook:(id)sender {
@@ -95,7 +90,7 @@
              
              [faceBookData addObject:fModel];
              
-            // [self performSegueWithIdentifier:@"faceBookSague" sender:nil];
+             // [self performSegueWithIdentifier:@"faceBookSague" sender:nil];
              
              
          }
@@ -111,15 +106,15 @@
 }
 - (IBAction)loginThroughGmail:(id)sender {
     
-//    GIDSignIn.sharedInstance().clientID = "1030612214396-2dcvs5u9r4a9mjosga93euua93rehv49.apps.googleusercontent.com"
-//    
+    //    GIDSignIn.sharedInstance().clientID = "1030612214396-2dcvs5u9r4a9mjosga93euua93rehv49.apps.googleusercontent.com"
+    //
     // GIDSignIn.sharedInstance().clientID = "72551746081-ntvb0sfagqodek61mqor44k0ksc4ja2r.apps.googleusercontent.com"
-
+    
     [GIDSignIn sharedInstance].clientID = @"621269543245-qbngg001b482f9uj817quj9qd3kaddi2.apps.googleusercontent.com";
     
     [GIDSignIn sharedInstance].uiDelegate = self;
     [GIDSignIn sharedInstance].delegate = self;
-
+    
     [[GIDSignIn sharedInstance] signIn];
     
     
@@ -137,7 +132,7 @@ didSignInForUser:(GIDGoogleUser *)user
         userIDStr = user.userID;
         givenName = user.profile.givenName;
         familyName= user.profile.familyName;
-               // ...
+        // ...
     } else {
         // ...
     }
@@ -145,3 +140,4 @@ didSignInForUser:(GIDGoogleUser *)user
 
 
 @end
+
