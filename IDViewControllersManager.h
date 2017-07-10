@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 //#import "IDAppRootViewController.h"
-#import "MenuViewController.h"
 #import "ProfileVC.h"
 //#import "IDWebViewController.h"
 #import "FleetVC.h"
@@ -21,13 +20,12 @@
 
 
 
-@property (readonly, nonatomic) EScreen     displayedScreen;
+@property (readonly, nonatomic) UIScreen*     displayedScreen;
 
 
 @property (retain, nonatomic) UINavigationController        *navigationController;
 @property (retain, nonatomic) MapScreenViewController       *rootViewController;
 @property (assign, nonatomic) UIViewController              *currentViewController;
-@property (retain, nonatomic) MenuViewController       *_sideBarViewController;
 @property (retain, nonatomic) UIView       *sideMenuContainerView;
 @property (retain, nonatomic) UIView       *dimView;
 @property(assign,nonatomic)float kEPSideMenuWidth;
@@ -55,7 +53,6 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 #pragma mark                                                                    Navigation handler
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------
-- (void)displayScreen:(EScreen)inScreen animated:(BOOL)inAnimation;
 
 - (void)showSideMenu:(BOOL)inValue;
 

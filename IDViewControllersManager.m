@@ -57,7 +57,6 @@ static IDViewControllersManager *sSharedControllersManager = nil;
         _currentViewController =  _rootViewController = [self mapViewControl];
 
 
-        [self addSideMenuContanierView];
      
 //        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(countryChnged:) name:KCountryChanged object:nil];
 //
@@ -69,57 +68,8 @@ static IDViewControllersManager *sSharedControllersManager = nil;
     return self;
 }
 
--(void)addSideMenuContanierView
-{
-    if(self.sideMenuContainerView != nil)
-    {
-        return;
-    }
-    UIWindow *theWindow     = [[UIApplication sharedApplication].delegate window];
-    self.kEPSideMenuWidth = 250.0f;
-    self.kEPSideMenuWidth = CGRectGetWidth(theWindow.bounds);
-    
-    self.dimView.frame = theWindow.bounds;
-    [self.dimView setBackgroundColor:[UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0]];
-    [theWindow addSubview:self.dimView];
-    self.dimView.alpha = 0;
-    
-    self.sideMenuContainerView = [[UIView alloc] initWithFrame:CGRectMake(-_kEPSideMenuWidth, 0.0, CGRectGetWidth(theWindow.bounds), CGRectGetHeight(theWindow.bounds))];
-    [self.sideMenuContainerView setBackgroundColor:[UIColor clearColor]];
-    [self.sideMenuContainerView setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [theWindow addSubview:self.sideMenuContainerView];
 
-    
-    self.sideMenuContainerView.alpha = 0.5;
 
-    [self.sideMenuContainerView addConstraint:[NSLayoutConstraint constraintWithItem:self.sideMenuContainerView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:_kEPSideMenuWidth]];
-    
-    self.leadingContraint = [NSLayoutConstraint constraintWithItem:self.sideMenuContainerView attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:theWindow attribute:NSLayoutAttributeLeading multiplier:1.0 constant:-_kEPSideMenuWidth];
-    
-    [self.leadingContraint setActive:YES];
-    
-    NSLayoutConstraint *topContraint = [NSLayoutConstraint constraintWithItem:self.sideMenuContainerView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:theWindow attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0];
-    NSLayoutConstraint *bottomContraint = [NSLayoutConstraint constraintWithItem:self.sideMenuContainerView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:theWindow attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0];
-
-    
-    [theWindow addConstraint:self.leadingContraint];
-    [theWindow addConstraint:topContraint];
-    [theWindow addConstraint:bottomContraint];
-
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
-
-    self._sideBarViewController = [storyboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
-
-    CGRect rect = CGRectMake(0, 0, CGRectGetWidth(self.sideMenuContainerView.frame), CGRectGetHeight(self.sideMenuContainerView.bounds));
-    
-    self._sideBarViewController.view.frame = rect;
-    [self.sideMenuContainerView addSubview:self._sideBarViewController.view];
-    [self.sideMenuContainerView setBackgroundColor:[UIColor clearColor]];
-    [self._sideBarViewController.view setBackgroundColor:[UIColor clearColor]];
-
-    
-    
-}
 
 - (void)releaseAllControllers {
     [[NSNotificationCenter defaultCenter]removeObserver:self];
@@ -129,88 +79,7 @@ static IDViewControllersManager *sSharedControllersManager = nil;
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 #pragma mark                                                                    Navigation handler
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------
-- (void)displayScreen:(EScreen)inScreen animated:(BOOL)inAnimation {
- 
-    UIViewController *oldViewController = _currentViewController;
-    [oldViewController.view endEditing:YES];
-    
-    [self showSideMenu:NO];
 
-    _displayedScreen = inScreen;
-
-    switch (_displayedScreen) {
-            
-        case eHomeView:
-            _currentViewController = [self mapViewControl];
-            
-            break;
-        case eProfileView:
-            _currentViewController = [self profileViewControl];
-
-            break;
-            
-        case eFleetView:
-            _currentViewController = [self fleetViewCntrl];
-            break;
-
-            
-        case eAboutUsView:
-            _currentViewController = [self aboutUsViewCntrl];
-            break;
-            
-            
-        case eLogOutView:
-           // [self callLogoutAction];
-            break;
-            
-            
- 
-            
-              default:
-            break;
-    }
-
-    if(_currentViewController != oldViewController) {
-        if([_navigationController.viewControllers containsObject:_rootViewController])
-            [_navigationController popToViewController:_rootViewController animated:NO];
-
-        if(_navigationController.topViewController != _rootViewController)
-            [_navigationController pushViewController:_rootViewController animated:NO];
-
-        if(_currentViewController != _rootViewController)
-            [_navigationController pushViewController:_currentViewController animated:NO];
-    }
-    else {
-        if([_navigationController.viewControllers containsObject:_currentViewController])
-        {
-            if(_currentViewController != _navigationController.topViewController)
-                [_navigationController popToViewController:_currentViewController animated:YES];
-        }
-        else
-        {
-            [_navigationController pushViewController:_currentViewController animated:YES];
-
-        }
-        
-    }
-
-    
-}
-
-- (void)showSideMenu:(BOOL)inValue {
-
-    self.sideMenuContainerView.alpha = 1.0;
-    [_currentViewController.view endEditing:YES];
-
-    if(inValue)
-    {
-        [self showSideMenuController];
-    }
-    else
-    {
-        [self hideSideMenuController];
-    }
-}
 
 -(void)hideSideMenuController
 {

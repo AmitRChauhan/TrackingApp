@@ -26,6 +26,9 @@
 #define kGoogleDirectionKey                                                  @"google direction key"
 #define kNotificationServerKey                  @"server_key"
 #define kNotificationCodeKey                    @"code"
+#define kContryCodeeKey                    @"Cntrycode"
+#define kStateCodeeKey                    @"statecode"
+#define kCityCodeeKey                    @"citycode"
 
 
 #define kCustomerId                                            @"CUSTOMERID"
@@ -34,6 +37,7 @@
 #define kDEVICETYPEKey                                             @"DEVICETYPE"
 #define kDEVICEIDKey                                               @"DEVICEID"
 #define kPUSHTOKEN                                             @"PUSHTOKEN"
+#define kAPPVERSION                                             @"1.0.1"
 
 #pragma mark -
 #pragma mark Resonse Code From API
@@ -56,20 +60,12 @@ typedef enum
 {
     eResponseSuccess            =   000,
     eResponseWrongEntryFound     =   101,
-    eResponseOtherError         =   999
+    eResponseOtherError         =   999,
+    eResponseNotregisterError         =   105
+
 }PCResponceCodeType;
 
-typedef enum
-{
-    eHomeView,
-    eProfileView,
-    eFleetView,
-    eAboutUsView,
-    eLogOutView
 
-
-
-}EScreen;
 
 
 
