@@ -16,6 +16,59 @@
 		00DED65C1E3F498D00418F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DED65A1E3F498D00418F87 /* LaunchScreen.storyboard */; };
 		00DED6671E3F498D00418F87 /* TrackingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DED6661E3F498D00418F87 /* TrackingAppTests.m */; };
 		00DED6721E3F498D00418F87 /* TrackingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DED6711E3F498D00418F87 /* TrackingAppUITests.m */; };
+		00DED68A1E3F596100418F87 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DED6891E3F596100418F87 /* SignUpViewController.m */; };
+		00DED68D1E3F599600418F87 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DED68C1E3F599600418F87 /* SignInViewController.m */; };
+		00DF641A1E5309F900843616 /* PCConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF64191E5309F900843616 /* PCConstant.m */; };
+		00E1BC801E545C0200B0644C /* PCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1BC7F1E545C0200B0644C /* PCUser.m */; };
+		00E1BC8A1E54619D00B0644C /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1BC871E54619D00B0644C /* NSString+Additions.m */; };
+		00E20D6B1E499D65002BC324 /* ChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E20D6A1E499D65002BC324 /* ChangePwdViewController.m */; };
+		00E20D6E1E499DA8002BC324 /* OTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E20D6D1E499DA8002BC324 /* OTPViewController.m */; };
+		00E23F231E4D8F3200ACBDC1 /* VKSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E23F221E4D8F3200ACBDC1 /* VKSideMenu.m */; };
+		00E3A86E1E4B14E800D5F12B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3A86D1E4B14E800D5F12B /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		00E3A8701E4B14EF00D5F12B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3A86F1E4B14EF00D5F12B /* Foundation.framework */; };
+		00E3A8721E4B14F700D5F12B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3A8711E4B14F700D5F12B /* MapKit.framework */; };
+		00E537B41E40795B007E5D79 /* ChangepasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E537B31E40795B007E5D79 /* ChangepasswordViewController.m */; };
+		00E9D8EE1E558EFD007840D2 /* AddDriverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9D8ED1E558EFD007840D2 /* AddDriverViewController.m */; };
+		00E9D8F91E55C9F1007840D2 /* DriverDeatilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9D8F81E55C9F1007840D2 /* DriverDeatilsViewController.m */; };
+		00E9D8FE1E55CEA8007840D2 /* DateTImeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9D8FD1E55CEA8007840D2 /* DateTImeViewController.m */; };
+		00F81C291E406EEB009460F2 /* MapScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F81C281E406EEB009460F2 /* MapScreenViewController.m */; };
+		07B4A616699DDD558C11C58B /* libPods-TrackingAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A767518FDFEA0999756138 /* libPods-TrackingAppUITests.a */; };
+		2840A72B1F126844006E50F5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A7271F126844006E50F5 /* Bolts.framework */; };
+		2840A72C1F126844006E50F5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A7281F126844006E50F5 /* FBSDKCoreKit.framework */; };
+		2840A72D1F126844006E50F5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A7291F126844006E50F5 /* FBSDKLoginKit.framework */; };
+		2840A72E1F126844006E50F5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840A72A1F126844006E50F5 /* FBSDKShareKit.framework */; };
+		2840A7311F126B45006E50F5 /* FaceBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840A7301F126B45006E50F5 /* FaceBookModel.m */; };
+		2840A7331F128130006E50F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840A7321F128130006E50F5 /* GoogleService-Info.plist */; };
+		2840A7341F128130006E50F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840A7321F128130006E50F5 /* GoogleService-Info.plist */; };
+		2840A7351F128130006E50F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840A7321F128130006E50F5 /* GoogleService-Info.plist */; };
+		68D102AFD9B5ED41B85C13F6 /* libPods-TrackingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305ABF0C1AEE27E8845F977A /* libPods-TrackingApp.a */; };
+		A78C2CC81F0F9CC1008148C5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78C2CC71F0F9CC1008148C5 /* SWRevealViewController.m */; };
+		A78C2CCD1F0FA0FA008148C5 /* SlideTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A78C2CCA1F0FA0FA008148C5 /* SlideTableCell.m */; };
+		A78C2CCE1F0FA0FA008148C5 /* SlideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A78C2CCB1F0FA0FA008148C5 /* SlideVC.m */; };
+		A78C2CD11F0FA1AC008148C5 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A78C2CD01F0FA1AC008148C5 /* DataModel.m */; };
+		A7935D7A1F0CC773002F86BD /* SocialIntegrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D791F0CC773002F86BD /* SocialIntegrationVC.m */; };
+		A7935D821F0CD99A002F86BD /* SignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D811F0CD99A002F86BD /* SignUpVC.m */; };
+		A7935D851F0CE4B3002F86BD /* PasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D841F0CE4B3002F86BD /* PasswordVC.m */; };
+		A7935D881F0CF5B1002F86BD /* PasswordAuthenticationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D871F0CF5B1002F86BD /* PasswordAuthenticationVC.m */; };
+		A7935D921F0D2054002F86BD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D911F0D2054002F86BD /* MenuViewController.m */; };
+		A7935D951F0D210D002F86BD /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D941F0D210D002F86BD /* MenuTableViewCell.m */; };
+		A7935D981F0D2227002F86BD /* IDViewControllersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D971F0D2227002F86BD /* IDViewControllersManager.m */; };
+		A7935D9E1F0E084F002F86BD /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935D9D1F0E084F002F86BD /* ProfileVC.m */; };
+		A7935DA11F0E0871002F86BD /* FleetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DA01F0E0871002F86BD /* FleetVC.m */; };
+		A7935DA41F0E0885002F86BD /* AboutUsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DA31F0E0885002F86BD /* AboutUsVc.m */; };
+		A7935DAA1F0E1966002F86BD /* PCUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DA91F0E1966002F86BD /* PCUserDefaults.m */; };
+		A7935DD71F0E1BDB002F86BD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DBB1F0E1BDB002F86BD /* MBProgressHUD.m */; };
+		A7935DD81F0E1BDB002F86BD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DBE1F0E1BDB002F86BD /* NSData+Base64.m */; };
+		A7935DD91F0E1BDB002F86BD /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DC11F0E1BDB002F86BD /* NSData+AES.m */; };
+		A7935DDA1F0E1BDB002F86BD /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DC31F0E1BDB002F86BD /* NSString+Encryption.m */; };
+		A7935DDB1F0E1BDB002F86BD /* NSString+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DC51F0E1BDB002F86BD /* NSString+SHA.m */; };
+		A7935DE21F0E1BDB002F86BD /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A7935DD61F0E1BDB002F86BD /* NSString+Encoding.m */; };
+		A79A3D5F1F0BC66800200339 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A3D5E1F0BC66800200339 /* LoginViewController.m */; };
+		A79A3D621F0BC87B00200339 /* CountryCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A3D611F0BC87B00200339 /* CountryCodeVC.m */; };
+		A79A3D671F0BC9E600200339 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A3D631F0BC9E600200339 /* CountryCell.m */; };
+		A79A3D681F0BC9E600200339 /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A3D651F0BC9E600200339 /* CountryModel.m */; };
+		A79A3D711F0BD16700200339 /* CountryFlags.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A79A3D701F0BD16700200339 /* CountryFlags.bundle */; };
+		DBAB6A44BD6C7EB1AA43DB5C /* libPods-TrackingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 123EDFBE85B1F2E0971904AA /* libPods-TrackingAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +89,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0047CA8D13493956763193B7 /* Pods-TrackingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingAppTests/Pods-TrackingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		00DED6461E3F498D00418F87 /* TrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DED64A1E3F498D00418F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00DED64C1E3F498D00418F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		00DED64D1E3F498D00418F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		00DED64F1E3F498D00418F87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00DED6501E3F498D00418F87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00DED64C1E3F498D00418F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TrackingApp/AppDelegate.h; sourceTree = "<group>"; };
+		00DED64D1E3F498D00418F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TrackingApp/AppDelegate.m; sourceTree = "<group>"; };
+		00DED64F1E3F498D00418F87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TrackingApp/ViewController.h; sourceTree = "<group>"; };
+		00DED6501E3F498D00418F87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TrackingApp/ViewController.m; sourceTree = "<group>"; };
 		00DED6531E3F498D00418F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00DED6561E3F498D00418F87 /* TrackingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackingApp.xcdatamodel; sourceTree = "<group>"; };
 		00DED6581E3F498D00418F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +107,102 @@
 		00DED66D1E3F498D00418F87 /* TrackingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DED6711E3F498D00418F87 /* TrackingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingAppUITests.m; sourceTree = "<group>"; };
 		00DED6731E3F498D00418F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DED6881E3F596100418F87 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = TrackingApp/SignUpViewController.h; sourceTree = "<group>"; };
+		00DED6891E3F596100418F87 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = TrackingApp/SignUpViewController.m; sourceTree = "<group>"; };
+		00DED68B1E3F599600418F87 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = TrackingApp/SignInViewController.h; sourceTree = "<group>"; };
+		00DED68C1E3F599600418F87 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = TrackingApp/SignInViewController.m; sourceTree = "<group>"; };
+		00DF64181E5309F900843616 /* PCConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCConstant.h; sourceTree = "<group>"; };
+		00DF64191E5309F900843616 /* PCConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCConstant.m; sourceTree = "<group>"; };
+		00E1BC7E1E545C0200B0644C /* PCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCUser.h; sourceTree = "<group>"; };
+		00E1BC7F1E545C0200B0644C /* PCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUser.m; sourceTree = "<group>"; };
+		00E1BC861E54619D00B0644C /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		00E1BC871E54619D00B0644C /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		00E20D691E499D65002BC324 /* ChangePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangePwdViewController.h; path = TrackingApp/ChangePwdViewController.h; sourceTree = "<group>"; };
+		00E20D6A1E499D65002BC324 /* ChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangePwdViewController.m; path = TrackingApp/ChangePwdViewController.m; sourceTree = "<group>"; };
+		00E20D6C1E499DA8002BC324 /* OTPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTPViewController.h; path = TrackingApp/OTPViewController.h; sourceTree = "<group>"; };
+		00E20D6D1E499DA8002BC324 /* OTPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTPViewController.m; path = TrackingApp/OTPViewController.m; sourceTree = "<group>"; };
+		00E23F211E4D8F3200ACBDC1 /* VKSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSideMenu.h; sourceTree = "<group>"; };
+		00E23F221E4D8F3200ACBDC1 /* VKSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSideMenu.m; sourceTree = "<group>"; };
+		00E3A86D1E4B14E800D5F12B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00E3A86F1E4B14EF00D5F12B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00E3A8711E4B14F700D5F12B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		00E537B21E40795B007E5D79 /* ChangepasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangepasswordViewController.h; sourceTree = SOURCE_ROOT; };
+		00E537B31E40795B007E5D79 /* ChangepasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangepasswordViewController.m; sourceTree = SOURCE_ROOT; };
+		00E9D8EC1E558EFD007840D2 /* AddDriverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddDriverViewController.h; path = TrackingApp/AddDriverViewController.h; sourceTree = "<group>"; };
+		00E9D8ED1E558EFD007840D2 /* AddDriverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddDriverViewController.m; path = TrackingApp/AddDriverViewController.m; sourceTree = "<group>"; };
+		00E9D8F71E55C9F1007840D2 /* DriverDeatilsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverDeatilsViewController.h; path = TrackingApp/DriverDeatilsViewController.h; sourceTree = "<group>"; };
+		00E9D8F81E55C9F1007840D2 /* DriverDeatilsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverDeatilsViewController.m; path = TrackingApp/DriverDeatilsViewController.m; sourceTree = "<group>"; };
+		00E9D8FC1E55CEA8007840D2 /* DateTImeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTImeViewController.h; sourceTree = SOURCE_ROOT; };
+		00E9D8FD1E55CEA8007840D2 /* DateTImeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTImeViewController.m; sourceTree = SOURCE_ROOT; };
+		00F81C271E406EEB009460F2 /* MapScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScreenViewController.h; sourceTree = SOURCE_ROOT; };
+		00F81C281E406EEB009460F2 /* MapScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScreenViewController.m; sourceTree = SOURCE_ROOT; };
+		03A767518FDFEA0999756138 /* libPods-TrackingAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		123EDFBE85B1F2E0971904AA /* libPods-TrackingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2840A7271F126844006E50F5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2840A7281F126844006E50F5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2840A7291F126844006E50F5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2840A72A1F126844006E50F5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2840A72F1F126B3E006E50F5 /* FaceBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBookModel.h; sourceTree = "<group>"; };
+		2840A7301F126B45006E50F5 /* FaceBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBookModel.m; sourceTree = "<group>"; };
+		2840A7321F128130006E50F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		305ABF0C1AEE27E8845F977A /* libPods-TrackingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45217C2651FDF6EEA658B54F /* Pods-TrackingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingAppUITests/Pods-TrackingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5089CE5BCE7E14B5186142B2 /* Pods-TrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingApp/Pods-TrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		55BEE23BA4FBEF3856E373EF /* Pods-TrackingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingAppTests/Pods-TrackingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E15B2F7A6D79784636A0E13 /* Pods-TrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingApp/Pods-TrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		A78C2CC61F0F9CC1008148C5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A78C2CC71F0F9CC1008148C5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A78C2CC91F0FA0FA008148C5 /* SlideTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideTableCell.h; sourceTree = "<group>"; };
+		A78C2CCA1F0FA0FA008148C5 /* SlideTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideTableCell.m; sourceTree = "<group>"; };
+		A78C2CCB1F0FA0FA008148C5 /* SlideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideVC.m; sourceTree = "<group>"; };
+		A78C2CCC1F0FA0FA008148C5 /* SlideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideVC.h; sourceTree = "<group>"; };
+		A78C2CCF1F0FA1AC008148C5 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		A78C2CD01F0FA1AC008148C5 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		A7935D781F0CC773002F86BD /* SocialIntegrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialIntegrationVC.h; sourceTree = "<group>"; };
+		A7935D791F0CC773002F86BD /* SocialIntegrationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialIntegrationVC.m; sourceTree = "<group>"; };
+		A7935D801F0CD99A002F86BD /* SignUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpVC.h; sourceTree = "<group>"; };
+		A7935D811F0CD99A002F86BD /* SignUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpVC.m; sourceTree = "<group>"; };
+		A7935D831F0CE4B3002F86BD /* PasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordVC.h; sourceTree = "<group>"; };
+		A7935D841F0CE4B3002F86BD /* PasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordVC.m; sourceTree = "<group>"; };
+		A7935D861F0CF5B1002F86BD /* PasswordAuthenticationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordAuthenticationVC.h; sourceTree = "<group>"; };
+		A7935D871F0CF5B1002F86BD /* PasswordAuthenticationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordAuthenticationVC.m; sourceTree = "<group>"; };
+		A7935D901F0D2054002F86BD /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A7935D911F0D2054002F86BD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A7935D931F0D210D002F86BD /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		A7935D941F0D210D002F86BD /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		A7935D961F0D2227002F86BD /* IDViewControllersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDViewControllersManager.h; sourceTree = "<group>"; };
+		A7935D971F0D2227002F86BD /* IDViewControllersManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDViewControllersManager.m; sourceTree = "<group>"; };
+		A7935D9B1F0E03FF002F86BD /* TrackingApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrackingApp-Prefix.pch"; sourceTree = "<group>"; };
+		A7935D9C1F0E084F002F86BD /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		A7935D9D1F0E084F002F86BD /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		A7935D9F1F0E0871002F86BD /* FleetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FleetVC.h; sourceTree = "<group>"; };
+		A7935DA01F0E0871002F86BD /* FleetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FleetVC.m; sourceTree = "<group>"; };
+		A7935DA21F0E0885002F86BD /* AboutUsVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsVc.h; sourceTree = "<group>"; };
+		A7935DA31F0E0885002F86BD /* AboutUsVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsVc.m; sourceTree = "<group>"; };
+		A7935DA81F0E1966002F86BD /* PCUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCUserDefaults.h; sourceTree = "<group>"; };
+		A7935DA91F0E1966002F86BD /* PCUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUserDefaults.m; sourceTree = "<group>"; };
+		A7935DBA1F0E1BDB002F86BD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A7935DBB1F0E1BDB002F86BD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A7935DBD1F0E1BDB002F86BD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A7935DBE1F0E1BDB002F86BD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A7935DC01F0E1BDB002F86BD /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		A7935DC11F0E1BDB002F86BD /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		A7935DC21F0E1BDB002F86BD /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		A7935DC31F0E1BDB002F86BD /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		A7935DC41F0E1BDB002F86BD /* NSString+SHA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA.h"; sourceTree = "<group>"; };
+		A7935DC51F0E1BDB002F86BD /* NSString+SHA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA.m"; sourceTree = "<group>"; };
+		A7935DD51F0E1BDB002F86BD /* NSString+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encoding.h"; sourceTree = "<group>"; };
+		A7935DD61F0E1BDB002F86BD /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encoding.m"; sourceTree = "<group>"; };
+		A79A3D5D1F0BC66800200339 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A79A3D5E1F0BC66800200339 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A79A3D601F0BC86800200339 /* CountryCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodeVC.h; sourceTree = "<group>"; };
+		A79A3D611F0BC87B00200339 /* CountryCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodeVC.m; sourceTree = "<group>"; };
+		A79A3D631F0BC9E600200339 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		A79A3D641F0BC9E600200339 /* CountryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryModel.h; sourceTree = "<group>"; };
+		A79A3D651F0BC9E600200339 /* CountryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
+		A79A3D661F0BC9E600200339 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		A79A3D701F0BD16700200339 /* CountryFlags.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryFlags.bundle; sourceTree = "<group>"; };
+		B49E6F671755150D9DD50584 /* Pods-TrackingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackingAppUITests/Pods-TrackingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +210,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2840A72E1F126844006E50F5 /* FBSDKShareKit.framework in Frameworks */,
+				2840A72B1F126844006E50F5 /* Bolts.framework in Frameworks */,
+				2840A72C1F126844006E50F5 /* FBSDKCoreKit.framework in Frameworks */,
+				00E3A8721E4B14F700D5F12B /* MapKit.framework in Frameworks */,
+				00E3A8701E4B14EF00D5F12B /* Foundation.framework in Frameworks */,
+				2840A72D1F126844006E50F5 /* FBSDKLoginKit.framework in Frameworks */,
+				00E3A86E1E4B14E800D5F12B /* UIKit.framework in Frameworks */,
+				68D102AFD9B5ED41B85C13F6 /* libPods-TrackingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAB6A44BD6C7EB1AA43DB5C /* libPods-TrackingAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B4A616699DDD558C11C58B /* libPods-TrackingAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +247,8 @@
 				00DED6651E3F498D00418F87 /* TrackingAppTests */,
 				00DED6701E3F498D00418F87 /* TrackingAppUITests */,
 				00DED6471E3F498D00418F87 /* Products */,
+				00E3A86C1E4B14E800D5F12B /* Frameworks */,
+				AF8D83A83BBE3636181B7B16 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +265,19 @@
 		00DED6481E3F498D00418F87 /* TrackingApp */ = {
 			isa = PBXGroup;
 			children = (
-				00DED64C1E3F498D00418F87 /* AppDelegate.h */,
-				00DED64D1E3F498D00418F87 /* AppDelegate.m */,
-				00DED64F1E3F498D00418F87 /* ViewController.h */,
-				00DED6501E3F498D00418F87 /* ViewController.m */,
-				00DED6521E3F498D00418F87 /* Main.storyboard */,
+				2840A7321F128130006E50F5 /* GoogleService-Info.plist */,
+				2840A72F1F126B3E006E50F5 /* FaceBookModel.h */,
+				2840A7301F126B45006E50F5 /* FaceBookModel.m */,
+				2840A7271F126844006E50F5 /* Bolts.framework */,
+				2840A7281F126844006E50F5 /* FBSDKCoreKit.framework */,
+				2840A7291F126844006E50F5 /* FBSDKLoginKit.framework */,
+				2840A72A1F126844006E50F5 /* FBSDKShareKit.framework */,
+				A7935DB31F0E1B1F002F86BD /* NetworkStuff */,
+				A7935D991F0E0268002F86BD /* PCH file */,
+				A7935D7B1F0CCE99002F86BD /* ThirdPartyFrameWork */,
+				00E1BC851E54618400B0644C /* NSdateAdditions */,
+				00E20D711E4A0092002BC324 /* Model */,
+				00E20D721E4A00A4002BC324 /* Controllers */,
 				00DED6581E3F498D00418F87 /* Assets.xcassets */,
 				00DED65A1E3F498D00418F87 /* LaunchScreen.storyboard */,
 				00DED65D1E3F498D00418F87 /* Info.plist */,
@@ -143,6 +313,272 @@
 			path = TrackingAppUITests;
 			sourceTree = "<group>";
 		};
+		00E1BC851E54618400B0644C /* NSdateAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				00E1BC861E54619D00B0644C /* NSString+Additions.h */,
+				00E1BC871E54619D00B0644C /* NSString+Additions.m */,
+			);
+			name = NSdateAdditions;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		00E20D711E4A0092002BC324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00E1BC7E1E545C0200B0644C /* PCUser.h */,
+				00E1BC7F1E545C0200B0644C /* PCUser.m */,
+				00DF64181E5309F900843616 /* PCConstant.h */,
+				00DF64191E5309F900843616 /* PCConstant.m */,
+				00E23F211E4D8F3200ACBDC1 /* VKSideMenu.h */,
+				00E23F221E4D8F3200ACBDC1 /* VKSideMenu.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		00E20D721E4A00A4002BC324 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7935D891F0D08C8002F86BD /* SliderMenu */,
+				A79A3D691F0BCA6700200339 /* otherController */,
+				A79A3D5C1F0B9EFE00200339 /* StoryBoard */,
+				A79A3D5B1F0B9EE300200339 /* Windows */,
+				A79A3D5A1F0B9EA100200339 /* HomeVC */,
+				A79A3D591F0B9E0D00200339 /* SliderNavigations */,
+				A79A3D581F0B9D7600200339 /* OTPVC */,
+				A79A3D571F0B9D5B00200339 /* ChangePassword */,
+				A79A3D561F0B9C3800200339 /* SignInSignUpControllers */,
+				00E9D8EC1E558EFD007840D2 /* AddDriverViewController.h */,
+				00E9D8ED1E558EFD007840D2 /* AddDriverViewController.m */,
+				00E9D8F71E55C9F1007840D2 /* DriverDeatilsViewController.h */,
+				00E9D8F81E55C9F1007840D2 /* DriverDeatilsViewController.m */,
+				00E9D8FC1E55CEA8007840D2 /* DateTImeViewController.h */,
+				00E9D8FD1E55CEA8007840D2 /* DateTImeViewController.m */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		00E3A86C1E4B14E800D5F12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00E3A8711E4B14F700D5F12B /* MapKit.framework */,
+				00E3A86F1E4B14EF00D5F12B /* Foundation.framework */,
+				00E3A86D1E4B14E800D5F12B /* UIKit.framework */,
+				305ABF0C1AEE27E8845F977A /* libPods-TrackingApp.a */,
+				123EDFBE85B1F2E0971904AA /* libPods-TrackingAppTests.a */,
+				03A767518FDFEA0999756138 /* libPods-TrackingAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7935D7B1F0CCE99002F86BD /* ThirdPartyFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdPartyFrameWork;
+			sourceTree = "<group>";
+		};
+		A7935D891F0D08C8002F86BD /* SliderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A78C2CCF1F0FA1AC008148C5 /* DataModel.h */,
+				A78C2CD01F0FA1AC008148C5 /* DataModel.m */,
+				A78C2CC91F0FA0FA008148C5 /* SlideTableCell.h */,
+				A78C2CCA1F0FA0FA008148C5 /* SlideTableCell.m */,
+				A78C2CCC1F0FA0FA008148C5 /* SlideVC.h */,
+				A78C2CCB1F0FA0FA008148C5 /* SlideVC.m */,
+				A78C2CC61F0F9CC1008148C5 /* SWRevealViewController.h */,
+				A78C2CC71F0F9CC1008148C5 /* SWRevealViewController.m */,
+				A7935DA81F0E1966002F86BD /* PCUserDefaults.h */,
+				A7935DA91F0E1966002F86BD /* PCUserDefaults.m */,
+				A7935D961F0D2227002F86BD /* IDViewControllersManager.h */,
+				A7935D971F0D2227002F86BD /* IDViewControllersManager.m */,
+				A7935D931F0D210D002F86BD /* MenuTableViewCell.h */,
+				A7935D941F0D210D002F86BD /* MenuTableViewCell.m */,
+				A7935D901F0D2054002F86BD /* MenuViewController.h */,
+				A7935D911F0D2054002F86BD /* MenuViewController.m */,
+				00F81C271E406EEB009460F2 /* MapScreenViewController.h */,
+				00F81C281E406EEB009460F2 /* MapScreenViewController.m */,
+				A7935D9C1F0E084F002F86BD /* ProfileVC.h */,
+				A7935D9D1F0E084F002F86BD /* ProfileVC.m */,
+				A7935D9F1F0E0871002F86BD /* FleetVC.h */,
+				A7935DA01F0E0871002F86BD /* FleetVC.m */,
+				A7935DA21F0E0885002F86BD /* AboutUsVc.h */,
+				A7935DA31F0E0885002F86BD /* AboutUsVc.m */,
+			);
+			name = SliderMenu;
+			sourceTree = "<group>";
+		};
+		A7935D991F0E0268002F86BD /* PCH file */ = {
+			isa = PBXGroup;
+			children = (
+				A7935D9B1F0E03FF002F86BD /* TrackingApp-Prefix.pch */,
+			);
+			name = "PCH file";
+			sourceTree = "<group>";
+		};
+		A7935DB31F0E1B1F002F86BD /* NetworkStuff */ = {
+			isa = PBXGroup;
+			children = (
+				A7935DB81F0E1BDB002F86BD /* Network */,
+			);
+			name = NetworkStuff;
+			sourceTree = "<group>";
+		};
+		A7935DB81F0E1BDB002F86BD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A7935DB91F0E1BDB002F86BD /* Activity View */,
+				A7935DBC1F0E1BDB002F86BD /* DataEncoding */,
+				A7935DBF1F0E1BDB002F86BD /* Encryption_decryption */,
+				A7935DD41F0E1BDB002F86BD /* StringEncoding */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A7935DB91F0E1BDB002F86BD /* Activity View */ = {
+			isa = PBXGroup;
+			children = (
+				A7935DBA1F0E1BDB002F86BD /* MBProgressHUD.h */,
+				A7935DBB1F0E1BDB002F86BD /* MBProgressHUD.m */,
+			);
+			path = "Activity View";
+			sourceTree = "<group>";
+		};
+		A7935DBC1F0E1BDB002F86BD /* DataEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				A7935DBD1F0E1BDB002F86BD /* NSData+Base64.h */,
+				A7935DBE1F0E1BDB002F86BD /* NSData+Base64.m */,
+			);
+			path = DataEncoding;
+			sourceTree = "<group>";
+		};
+		A7935DBF1F0E1BDB002F86BD /* Encryption_decryption */ = {
+			isa = PBXGroup;
+			children = (
+				A7935DC01F0E1BDB002F86BD /* NSData+AES.h */,
+				A7935DC11F0E1BDB002F86BD /* NSData+AES.m */,
+				A7935DC21F0E1BDB002F86BD /* NSString+Encryption.h */,
+				A7935DC31F0E1BDB002F86BD /* NSString+Encryption.m */,
+				A7935DC41F0E1BDB002F86BD /* NSString+SHA.h */,
+				A7935DC51F0E1BDB002F86BD /* NSString+SHA.m */,
+			);
+			path = Encryption_decryption;
+			sourceTree = "<group>";
+		};
+		A7935DD41F0E1BDB002F86BD /* StringEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				A7935DD51F0E1BDB002F86BD /* NSString+Encoding.h */,
+				A7935DD61F0E1BDB002F86BD /* NSString+Encoding.m */,
+			);
+			path = StringEncoding;
+			sourceTree = "<group>";
+		};
+		A79A3D561F0B9C3800200339 /* SignInSignUpControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A79A3D701F0BD16700200339 /* CountryFlags.bundle */,
+				A79A3D641F0BC9E600200339 /* CountryModel.h */,
+				A79A3D651F0BC9E600200339 /* CountryModel.m */,
+				A79A3D661F0BC9E600200339 /* CountryCell.h */,
+				A79A3D631F0BC9E600200339 /* CountryCell.m */,
+				A79A3D601F0BC86800200339 /* CountryCodeVC.h */,
+				A79A3D611F0BC87B00200339 /* CountryCodeVC.m */,
+				A79A3D5D1F0BC66800200339 /* LoginViewController.h */,
+				A79A3D5E1F0BC66800200339 /* LoginViewController.m */,
+				00DED6881E3F596100418F87 /* SignUpViewController.h */,
+				00DED6891E3F596100418F87 /* SignUpViewController.m */,
+				00DED68B1E3F599600418F87 /* SignInViewController.h */,
+				00DED68C1E3F599600418F87 /* SignInViewController.m */,
+				00DED64F1E3F498D00418F87 /* ViewController.h */,
+				00DED6501E3F498D00418F87 /* ViewController.m */,
+				A7935D781F0CC773002F86BD /* SocialIntegrationVC.h */,
+				A7935D791F0CC773002F86BD /* SocialIntegrationVC.m */,
+				A7935D801F0CD99A002F86BD /* SignUpVC.h */,
+				A7935D811F0CD99A002F86BD /* SignUpVC.m */,
+				A7935D831F0CE4B3002F86BD /* PasswordVC.h */,
+				A7935D841F0CE4B3002F86BD /* PasswordVC.m */,
+				A7935D861F0CF5B1002F86BD /* PasswordAuthenticationVC.h */,
+				A7935D871F0CF5B1002F86BD /* PasswordAuthenticationVC.m */,
+			);
+			name = SignInSignUpControllers;
+			sourceTree = "<group>";
+		};
+		A79A3D571F0B9D5B00200339 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				00E20D691E499D65002BC324 /* ChangePwdViewController.h */,
+				00E20D6A1E499D65002BC324 /* ChangePwdViewController.m */,
+				00E537B21E40795B007E5D79 /* ChangepasswordViewController.h */,
+				00E537B31E40795B007E5D79 /* ChangepasswordViewController.m */,
+			);
+			name = ChangePassword;
+			sourceTree = "<group>";
+		};
+		A79A3D581F0B9D7600200339 /* OTPVC */ = {
+			isa = PBXGroup;
+			children = (
+				00E20D6C1E499DA8002BC324 /* OTPViewController.h */,
+				00E20D6D1E499DA8002BC324 /* OTPViewController.m */,
+			);
+			name = OTPVC;
+			sourceTree = "<group>";
+		};
+		A79A3D591F0B9E0D00200339 /* SliderNavigations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SliderNavigations;
+			sourceTree = "<group>";
+		};
+		A79A3D5A1F0B9EA100200339 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
+		A79A3D5B1F0B9EE300200339 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				00DED64C1E3F498D00418F87 /* AppDelegate.h */,
+				00DED64D1E3F498D00418F87 /* AppDelegate.m */,
+			);
+			name = Windows;
+			sourceTree = "<group>";
+		};
+		A79A3D5C1F0B9EFE00200339 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				00DED6521E3F498D00418F87 /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A79A3D691F0BCA6700200339 /* otherController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = otherController;
+			sourceTree = "<group>";
+		};
+		AF8D83A83BBE3636181B7B16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5089CE5BCE7E14B5186142B2 /* Pods-TrackingApp.debug.xcconfig */,
+				6E15B2F7A6D79784636A0E13 /* Pods-TrackingApp.release.xcconfig */,
+				0047CA8D13493956763193B7 /* Pods-TrackingAppTests.debug.xcconfig */,
+				55BEE23BA4FBEF3856E373EF /* Pods-TrackingAppTests.release.xcconfig */,
+				45217C2651FDF6EEA658B54F /* Pods-TrackingAppUITests.debug.xcconfig */,
+				B49E6F671755150D9DD50584 /* Pods-TrackingAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +586,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DED6761E3F498D00418F87 /* Build configuration list for PBXNativeTarget "TrackingApp" */;
 			buildPhases = (
+				2C5779BDECDA4D8C9DEA164E /* [CP] Check Pods Manifest.lock */,
 				00DED6421E3F498D00418F87 /* Sources */,
 				00DED6431E3F498D00418F87 /* Frameworks */,
 				00DED6441E3F498D00418F87 /* Resources */,
+				36EA8782D9A74AA2027F0EE7 /* [CP] Embed Pods Frameworks */,
+				8DF189CF3CDADB101A5CDDE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +606,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DED6791E3F498D00418F87 /* Build configuration list for PBXNativeTarget "TrackingAppTests" */;
 			buildPhases = (
+				E761E57D447FF1DE7529E19F /* [CP] Check Pods Manifest.lock */,
 				00DED65E1E3F498D00418F87 /* Sources */,
 				00DED65F1E3F498D00418F87 /* Frameworks */,
 				00DED6601E3F498D00418F87 /* Resources */,
+				6810695B23EF33EB4F03C7BD /* [CP] Embed Pods Frameworks */,
+				87229E25DC3968F5C45EE68F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +627,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DED67C1E3F498D00418F87 /* Build configuration list for PBXNativeTarget "TrackingAppUITests" */;
 			buildPhases = (
+				7FDF087A3C1274BF6F1426EC /* [CP] Check Pods Manifest.lock */,
 				00DED6691E3F498D00418F87 /* Sources */,
 				00DED66A1E3F498D00418F87 /* Frameworks */,
 				00DED66B1E3F498D00418F87 /* Resources */,
+				445367E60F9BD6A6B57D5444 /* [CP] Embed Pods Frameworks */,
+				4D882B9344668B8FBDC20A28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,7 +694,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79A3D711F0BD16700200339 /* CountryFlags.bundle in Resources */,
 				00DED65C1E3F498D00418F87 /* LaunchScreen.storyboard in Resources */,
+				2840A7331F128130006E50F5 /* GoogleService-Info.plist in Resources */,
 				00DED6591E3F498D00418F87 /* Assets.xcassets in Resources */,
 				00DED6541E3F498D00418F87 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +706,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2840A7341F128130006E50F5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,20 +714,198 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2840A7351F128130006E50F5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C5779BDECDA4D8C9DEA164E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36EA8782D9A74AA2027F0EE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackingApp/Pods-TrackingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		445367E60F9BD6A6B57D5444 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackingAppUITests/Pods-TrackingAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D882B9344668B8FBDC20A28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackingAppUITests/Pods-TrackingAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6810695B23EF33EB4F03C7BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackingAppTests/Pods-TrackingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FDF087A3C1274BF6F1426EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87229E25DC3968F5C45EE68F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackingAppTests/Pods-TrackingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF189CF3CDADB101A5CDDE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackingApp/Pods-TrackingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E761E57D447FF1DE7529E19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00DED6421E3F498D00418F87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7935D7A1F0CC773002F86BD /* SocialIntegrationVC.m in Sources */,
+				A78C2CCE1F0FA0FA008148C5 /* SlideVC.m in Sources */,
 				00DED6571E3F498D00418F87 /* TrackingApp.xcdatamodeld in Sources */,
+				A7935DA41F0E0885002F86BD /* AboutUsVc.m in Sources */,
+				00E1BC8A1E54619D00B0644C /* NSString+Additions.m in Sources */,
+				00DED68A1E3F596100418F87 /* SignUpViewController.m in Sources */,
+				A7935DAA1F0E1966002F86BD /* PCUserDefaults.m in Sources */,
+				A7935DDA1F0E1BDB002F86BD /* NSString+Encryption.m in Sources */,
+				A7935D9E1F0E084F002F86BD /* ProfileVC.m in Sources */,
+				00E20D6B1E499D65002BC324 /* ChangePwdViewController.m in Sources */,
+				A79A3D5F1F0BC66800200339 /* LoginViewController.m in Sources */,
+				A78C2CD11F0FA1AC008148C5 /* DataModel.m in Sources */,
+				00E1BC801E545C0200B0644C /* PCUser.m in Sources */,
+				A7935DD91F0E1BDB002F86BD /* NSData+AES.m in Sources */,
 				00DED6511E3F498D00418F87 /* ViewController.m in Sources */,
+				A7935DA11F0E0871002F86BD /* FleetVC.m in Sources */,
 				00DED64E1E3F498D00418F87 /* AppDelegate.m in Sources */,
+				00F81C291E406EEB009460F2 /* MapScreenViewController.m in Sources */,
+				00E9D8F91E55C9F1007840D2 /* DriverDeatilsViewController.m in Sources */,
+				A7935D821F0CD99A002F86BD /* SignUpVC.m in Sources */,
+				A7935D981F0D2227002F86BD /* IDViewControllersManager.m in Sources */,
+				A7935DE21F0E1BDB002F86BD /* NSString+Encoding.m in Sources */,
+				A7935DD81F0E1BDB002F86BD /* NSData+Base64.m in Sources */,
+				A7935DDB1F0E1BDB002F86BD /* NSString+SHA.m in Sources */,
+				A7935D951F0D210D002F86BD /* MenuTableViewCell.m in Sources */,
+				00E9D8EE1E558EFD007840D2 /* AddDriverViewController.m in Sources */,
+				A7935DD71F0E1BDB002F86BD /* MBProgressHUD.m in Sources */,
+				00E20D6E1E499DA8002BC324 /* OTPViewController.m in Sources */,
+				A78C2CC81F0F9CC1008148C5 /* SWRevealViewController.m in Sources */,
+				00DED68D1E3F599600418F87 /* SignInViewController.m in Sources */,
+				A7935D921F0D2054002F86BD /* MenuViewController.m in Sources */,
+				A7935D881F0CF5B1002F86BD /* PasswordAuthenticationVC.m in Sources */,
+				00DF641A1E5309F900843616 /* PCConstant.m in Sources */,
+				2840A7311F126B45006E50F5 /* FaceBookModel.m in Sources */,
+				A79A3D621F0BC87B00200339 /* CountryCodeVC.m in Sources */,
+				A7935D851F0CE4B3002F86BD /* PasswordVC.m in Sources */,
+				00E9D8FE1E55CEA8007840D2 /* DateTImeViewController.m in Sources */,
 				00DED64B1E3F498D00418F87 /* main.m in Sources */,
+				00E23F231E4D8F3200ACBDC1 /* VKSideMenu.m in Sources */,
+				A78C2CCD1F0FA0FA008148C5 /* SlideTableCell.m in Sources */,
+				A79A3D681F0BC9E600200339 /* CountryModel.m in Sources */,
+				A79A3D671F0BC9E600200339 /* CountryCell.m in Sources */,
+				00E537B41E40795B007E5D79 /* ChangepasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +947,7 @@
 				00DED6531E3F498D00418F87 /* Base */,
 			);
 			name = Main.storyboard;
+			path = TrackingApp;
 			sourceTree = "<group>";
 		};
 		00DED65A1E3F498D00418F87 /* LaunchScreen.storyboard */ = {
@@ -426,8 +1053,16 @@
 		};
 		00DED6771E3F498D00418F87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5089CE5BCE7E14B5186142B2 /* Pods-TrackingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TrackingApp",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Amit/Downloads/TrackingApp/TrackingApp/TrackingApp-Prefix.pch";
 				INFOPLIST_FILE = TrackingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.TrackingApp;
@@ -437,8 +1072,16 @@
 		};
 		00DED6781E3F498D00418F87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E15B2F7A6D79784636A0E13 /* Pods-TrackingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TrackingApp",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Amit/Downloads/TrackingApp/TrackingApp/TrackingApp-Prefix.pch";
 				INFOPLIST_FILE = TrackingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.TrackingApp;
@@ -448,6 +1091,7 @@
 		};
 		00DED67A1E3F498D00418F87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0047CA8D13493956763193B7 /* Pods-TrackingAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrackingAppTests/Info.plist;
@@ -460,6 +1104,7 @@
 		};
 		00DED67B1E3F498D00418F87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BEE23BA4FBEF3856E373EF /* Pods-TrackingAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrackingAppTests/Info.plist;
@@ -472,6 +1117,7 @@
 		};
 		00DED67D1E3F498D00418F87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45217C2651FDF6EEA658B54F /* Pods-TrackingAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TrackingAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +1129,7 @@
 		};
 		00DED67E1E3F498D00418F87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49E6F671755150D9DD50584 /* Pods-TrackingAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TrackingAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -511,6 +1158,7 @@
 				00DED6781E3F498D00418F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00DED6791E3F498D00418F87 /* Build configuration list for PBXNativeTarget "TrackingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +1167,7 @@
 				00DED67B1E3F498D00418F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00DED67C1E3F498D00418F87 /* Build configuration list for PBXNativeTarget "TrackingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +1176,7 @@
 				00DED67E1E3F498D00418F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

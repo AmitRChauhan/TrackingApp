@@ -1,0 +1,35 @@
+//
+//  TrackingApp-Prefix.pch
+//  TrackingApp
+//
+//  Created by sumo on 06/07/17.
+//  Copyright © 2017 Snowtint Snowtint. All rights reserved.
+//
+
+#ifndef TrackingApp_Prefix_pch
+#define TrackingApp_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TrackingApp_Prefix_pch */
+
+#ifdef __OBJC__
+
+#import "PCConstant.h"
+//#import "PCWebServiceManager.h"
+#import "PCUserDefaults.h"
+
+//#import "MBProgressHUD.h"
+//#import "PCErrorHandler.h"
+//#import "PCAccountKitHandler.h"
+//#import "SWRevealViewController.h"
+//#import <CoreLocation/CoreLocation.h>
+//#import <MapKit/MapKit.h>
+//#import "PCLocationManger.h"
+//#import "IDUtility.h"
+#import "IDViewControllersManager.h"
+//#import "IDGlobal.h"
+//#import "SCLAlertView.h"
+
+#endif
