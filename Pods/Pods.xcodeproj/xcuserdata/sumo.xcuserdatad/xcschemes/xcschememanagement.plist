@@ -8,31 +8,71 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GTMOAuth2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>MRProgress.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-TrackingApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-TrackingAppTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-TrackingAppUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1CAA13F2EC9A3AB96A7E6370EE3BFAFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58885A79D8F2FE6A57DF1D65A1A33E7E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58E7450DB13C5ECCE92D3C0DF7CF0903</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8138D56E0F7D99D2EC6BBE8FDF420231</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +93,11 @@
 			<true/>
 		</dict>
 		<key>BDDA4B01367AF04D9AB490C1056D4731</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAE45C123C22F83F258F201FDFBA835E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
